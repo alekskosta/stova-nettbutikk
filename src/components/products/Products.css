@@ -1,0 +1,52 @@
+h3 {
+  color: #1c1512;
+  font-weight: bold;
+}
+
+.prod-title {
+  padding: 40px 80px;
+  font-size: 2rem;
+}
+
+.prod-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(270px, 1fr));
+  gap: 16px;
+  padding: 0px 80px 0px;
+}
+
+.meny-button {
+  margin-bottom: 20px;
+}
+
+.button-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prod-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding-bottom: 40px;
+  border-bottom: 4px solid #1c1512;
+  width: 100%;
+}
+
+.active {
+  font-weight: bold;
+}
+
+@media (max-width: 900px) {
+  .prod-container {
+    padding: 0px 40px 0px;
+  }
+  .prod-title {
+    padding: 40px 40px;
+  }
+
+  .button-center {
+    margin-top: 20px;
+  }
+}
